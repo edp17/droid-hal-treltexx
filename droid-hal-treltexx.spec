@@ -4,8 +4,8 @@
 %define device treltexx
 %define vendor samsung
 
-%define vendor_pretty Galaxy Note4
-%define device_pretty Samsung
+%define vendor_pretty Samsung
+%define device_pretty Galaxy Note 4
 
 %define installable_zip 1
 
