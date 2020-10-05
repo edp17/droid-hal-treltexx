@@ -15,6 +15,10 @@
 #define MALI_QUIRKS 1\
 %{nil}
 
+%define additional_ha_groups \
+system\
+%{nil}
+
 %define straggler_files \
 /bugreports\
 /d\
