@@ -30,6 +30,9 @@ system\
 /vendor\
 %{nil}
 
+#decomission sys-fs-pstore.service
+%define makefstab_skip_entries /sys/fs/pstore
+
 %include rpm/dhd/droid-hal-device.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
