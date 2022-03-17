@@ -19,6 +19,16 @@
 system\
 %{nil}
 
+%define straggler_files \
+/bugreports\
+/d\
+/product\
+/product_services\
+/sdcard\
+/vendor\
+/vendor_service_contexts\
+%{nil}
+
 #decomission sys-fs-pstore.service
 %define makefstab_skip_entries /sys/fs/pstore
 
